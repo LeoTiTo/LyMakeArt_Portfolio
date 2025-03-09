@@ -1,0 +1,18 @@
+<svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_15_4)">
+        <!-- Cercle gris pour la lettre "J" -->
+        <rect width="40" height="40" rx="20" fill="#4C4C4C"/>
+
+        <!-- Lettre "J" en blanc au centre du cercle -->
+        <text x="13" y="28" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="white">L</text>
+
+        <!-- Texte "olie" stylisé à côté du cercle -->
+        <text x="40" y="28" font-family="Georgia, serif" font-size="26" font-weight="normal" fill="white"></text>
+    </g>
+    <defs>
+        <clipPath id="clip0_15_4">
+            <rect width="140" height="40" fill="white"/>
+        </clipPath>
+    </defs>
+</svg>
+
