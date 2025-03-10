@@ -424,13 +424,13 @@ document.addEventListener("DOMContentLoaded", function () {
   changeLanguage(currentLang);
 
   // Mettre à jour l'icône du bouton
-  langBtn.innerHTML = currentLang === "fr" ? "🇫🇷" : "🇺🇸";
+  langBtn.innerHTML = currentLang === "fr" ? "🇺🇸" : "🇫🇷";
 
   // Ajout d'un événement pour changer la langue
   langBtn.addEventListener("click", function () {
     currentLang = currentLang === "fr" ? "en" : "fr"; // Alterner entre FR et EN
     changeLanguage(currentLang);
-    langBtn.innerHTML = currentLang === "fr" ? "🇫🇷" : "🇺🇸"; // Met à jour l'icône
+    langBtn.innerHTML = currentLang === "fr" ? "🇺🇸" : "🇫🇷"; // Met à jour l'icône
   });
 });
 

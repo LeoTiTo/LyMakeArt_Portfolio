@@ -1725,9 +1725,9 @@ body.active { overflow: hidden; }
   .hero-banner { max-width: 290px; }
 
   .hero .shape {
-    display: block;
+    display: inline-block;
     top: 55%;
-    left: 18%;
+    left: 5%;
   }
 
 
