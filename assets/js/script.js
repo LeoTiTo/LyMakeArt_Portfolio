@@ -206,6 +206,10 @@ scrollReveal();
 const cursor = document.querySelector("[data-cursor]");
 const anchorElements = document.querySelectorAll("a");
 const buttons = document.querySelectorAll("button");
+document.querySelector("body").style.cursor ='none';
+
+
+
 
 // change cursorElement position based on cursor move
 document.body.addEventListener("mousemove", function (event) {
@@ -327,7 +331,7 @@ document.addEventListener("DOMContentLoaded", function () {
       categoryFashion: "Mode,",
       categoryFilm: "Face Painting,",
       categoryArchitecture: "Drag-queen,",
-      categoryEvent: "Faux crâne,,",
+      categoryEvent: "Faux crâne,",
       categoryWedding: "Mariage,",
       categoryPeople: "Coiffure & Maquillage d'époque,",
       categoryFood: "Body Painting,",
@@ -424,13 +428,13 @@ document.addEventListener("DOMContentLoaded", function () {
   changeLanguage(currentLang);
 
   // Mettre à jour l'icône du bouton
-  langBtn.innerHTML = currentLang === "fr" ? "🇺🇸" : "🇫🇷";
+  langBtn.innerHTML = currentLang === "fr" ? "🇫🇷" : "🇺🇸";
 
   // Ajout d'un événement pour changer la langue
   langBtn.addEventListener("click", function () {
     currentLang = currentLang === "fr" ? "en" : "fr"; // Alterner entre FR et EN
     changeLanguage(currentLang);
-    langBtn.innerHTML = currentLang === "fr" ? "🇺🇸" : "🇫🇷"; // Met à jour l'icône
+    langBtn.innerHTML = currentLang === "fr" ? "🇫🇷" : "🇺🇸"; // Met à jour l'icône
   });
 });
 

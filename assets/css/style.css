@@ -101,7 +101,8 @@
   --eerie-black: hsl(0, 0%, 91%);  /* Opposé de 9% => 91% */
 
   /* Couleur complémentaire de Radical Red (346 + 180 = 526, -360 = 166) */
-  --radical-red: hsl(166, 100%, 58%);
+  /*--radical-red: hsl(166, 100%, 58%);*/
+  --radical-red: hsl(346, 100%, 58%);
 
   /* Les “white_aX” deviennent des “black_aX” avec la même opacité */
   --white_a9: hsla(0, 0%, 0%, 0.09);
@@ -195,7 +196,6 @@ button {
   background: none;
   border: none;
   font: inherit;
-  cursor: pointer;
 }
 
 ion-icon { pointer-events: none; }
@@ -560,7 +560,6 @@ body.active { overflow: hidden; }
 #lightMode-icon {
   margin-top: 10px;
   font-size: 2.4rem;
-  cursor: pointer;
 }
 
 .navbar-title {
@@ -613,7 +612,6 @@ body.active { overflow: hidden; }
   border: none;
   font-size: 2.4rem; /* Même taille que lightMode-icon */
   color: var(--white);
-  cursor: pointer;
   transition: transform 0.2s ease;
 }
 
@@ -918,7 +916,7 @@ body.active { overflow: hidden; }
   margin-block-end: 55px;
 }
 
-.service-card .img { display: none; }
+.service-card .img { display: block ; }
 
 .service-list > li:not(:last-child) { border-block-start: 1px solid var(--white_a9); }
 
@@ -943,7 +941,7 @@ body.active { overflow: hidden; }
   --hover-text-color: var(--black);
 }
 
-.service-card .btn-icon svg { width: 25px; }
+.service-card .btn-icon svg { width: 25px;}
 
 
 
@@ -1107,7 +1105,7 @@ body.active { overflow: hidden; }
   #CUSTOM CURSOR
 \*-----------------------------------*/
 
-.cursor { display: none; }
+.cursor { display: none;}
 
 
 
@@ -1508,7 +1506,7 @@ body.active { overflow: hidden; }
     opacity: 0;
     visibility: hidden;
     transition: var(--transition-1);
-    z-index: -1;
+    z-index: 10;
   }
 
   .service-card:is(:hover, :focus-within) .img {
@@ -1792,7 +1790,7 @@ body.active { overflow: hidden; }
     height: 95px;
   }
 
-  .service-card .btn-icon svg { width: 40px; }
+  .service-card .btn-icon svg { width: 100px; }
 
 
 

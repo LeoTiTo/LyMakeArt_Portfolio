@@ -3,7 +3,7 @@
     <circle cx="150" cy="150" r="100" stroke="white" stroke-width="2" fill="none"/>
 
     <!-- Lettre L au centre -->
-    <text x="160" y="155" font-family="Great Vibes, sans-serif" font-size="100" font-weight="lighter" fill="white" text-anchor="middle">L</text>
+    <text x="163" y="155" font-family="Great Vibes, sans-serif" font-size="100" font-weight="lighter" fill="white" text-anchor="middle">L</text>
 
     <!-- Définition du chemin circulaire PLUS    PETIT pour garder le texte à l'intérieur -->
     <defs>
@@ -12,7 +12,7 @@
 
     <!-- Texte circulaire À L'INTÉRIEUR DU CERCLE -->
     <text font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" letter-spacing="15">
-        <textPath href="#innerCirclePath" startOffset="21.9%">M A K E U P</textPath>
+        <textPath href="#innerCirclePath" startOffset="22%">M A K E U P</textPath>
         <textPath href="#innerCirclePath" startOffset="72%">A R T I S T</textPath>
     </text>
 </svg>
