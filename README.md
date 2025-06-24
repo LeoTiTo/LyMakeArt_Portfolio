@@ -1,3 +1,5 @@
+<img src="https://visitor-badge.laobi.icu/badge?page_id=LeoTiTo.LyMakeArt_Porfolio&color=blue&title=visitors&style=flat-square" />  <img src="https://visitor-badge.laobi.icu/badge?page_id=LeoTiTo.LyMakeArt_Porfolio&color=blue&title=visitors&style=flat-square" />
+
 ## 🎨 LyMakeArt_Porfolio – Professional Website 🌟  
 <a href="https://leotito.github.io/LyMakeArt_Portfolio/"><strong>🔗 **Live Demo:** </strong></a>
 
@@ -15,4 +17,4 @@ A modern and responsive portfolio website designed to showcase the achievements 
 ### 🛠️ Technologies Used:  
 - **HTML5 & CSS3** – Structured and styled for a polished look.  
 - **JavaScript (ES6+)** – Dynamic interactions and multilingual functionality.  
-- **GitHub Pages** – Hosting and version control.  
+- **GitHub Pages** – Hosting and version control. 
