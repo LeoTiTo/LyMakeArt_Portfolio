@@ -1,4 +1,4 @@
-<img src="https://visitor-badge.laobi.icu/badge?page_id=LeoTiTo.LyMakeArt_Porfolio&color=blue&title=visitors&style=flat-square" />  <img src="https://visitor-badge.laobi.icu/badge?page_id=LeoTiTo.LyMakeArt_Porfolio&color=blue&title=visitors&style=flat-square" />
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=LeoTiTo.LyMakeArt_Porfolio&color=blue&title=visitors&style=flat-square" /> 
 
 ## 🎨 LyMakeArt_Porfolio – Professional Website 🌟  
 <a href="https://leotito.github.io/LyMakeArt_Portfolio/"><strong>🔗 **Live Demo:** </strong></a>
